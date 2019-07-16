@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">AUTHOR</string>
+    <string name="book">Book</string>
+    <string name="short_description">Short Description</string>
+    <string name="author_s_name">Author\'s Name</string>
+    <string name="book_title">Book Title</string>
+    <string name="book_price">book price</string>
+
+</resources>

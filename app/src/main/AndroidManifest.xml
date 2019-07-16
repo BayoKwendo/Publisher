@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.author">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".publisher.Publisher"
+            android:label="Books Available">
+        </activity>
+
+        <activity android:name=".Author.MainActivity"
+            android:label="Book Post">
+
+
+        </activity>
+        <activity android:name=".publisher.Publisher_Edit"
+            android:label="Review Book"/>
+        <activity android:name=".User.User"
+            android:label="Books Available">
+
+        </activity>
+        <activity android:name=".mpesa.GateWay"
+            android:theme="@style/AppFullScreenTheme"/>
+        <activity android:name=".Authentication.LoginActivity"
+            android:theme="@style/AppFullScreenTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Authentication.RegisterActivity"
+            android:theme="@style/AppFullScreenTheme"/>
+        <activity android:name=".Authentication.ResetPasswordActivity"
+            android:label="Reset/Forgot Password" />
+        <activity android:name=".User.view"
+            android:label="ENJOY"/>
+        <activity android:name=".Author.About"
+            android:label="About Us"/>
+    </application>
+
+</manifest>
